@@ -1,5 +1,6 @@
 import { ButtonGray } from "./ButtonGray";
 import { SkillBox } from "./SkillBox";
+import { SkillsMap } from "./SkillsMap";
 import { JavascriptIcon } from "./svg/JavaScriptIcon";
 import {
   CypressIcon,
@@ -30,7 +31,8 @@ export const Skills = () => {
             </div>
           </div>
           <div className="">
-            <div className="flex gap-12 flex-wrap  items-center justify-center">
+            <SkillsMap />
+            {/* <div className="flex gap-12 flex-wrap  items-center justify-center">
               <SkillBox
                 iconComponent={<JavascriptIcon />}
                 text={"Javascript"}
@@ -58,7 +60,7 @@ export const Skills = () => {
               <SkillBox iconComponent={<CypressIcon />} text={"Cypress"} />
               <SkillBox iconComponent={<StorybookIcon />} text={"Storybook"} />
               <SkillBox iconComponent={<GitIcon />} text={"Git"} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
