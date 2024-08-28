@@ -14,16 +14,16 @@ export const Experience = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <div className=" w-[896px] bg-white rounded-xl grid md:grid-cols-3 md:p-[16px] pt-4 pb-4 ml-4 mr-4 dark:bg-gray-800">
+            <div className="  w-[896px] bg-white rounded-xl grid md:grid-cols-3 md:p-[16px] pt-4 pb-4 ml-4 mr-4 dark:bg-gray-800">
               <div>
                 <img src="./upwork.png" alt="" width={206} height={28} />
               </div>
-              <div className="pt-4 flex md:hidden dark:text-gray-300 ">
+              <div className="pt-4 md:hidden flex dark:text-gray-300">
                 Nov 2021 - Present
               </div>
               <div className="">
                 <p className="text-xl font-bold pb-3 pt-3 dark:text-gray-300">
-                  Sr. Frontend Developer
+                Sr. Frontend Developer
                 </p>
 
                 <ul className="list-disc list-item pl-4  dark:text-gray-300">
@@ -43,11 +43,15 @@ export const Experience = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Illo officiis distinctio vero temporibus doloremque
                   </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo officiis distinctio vero temporibus doloremque
+                  </li>
                 </ul>
               </div>
-            </div>
-            <div className="text-base  justify-end hidden md:flex  dark:text-gray-300">
+              <div className="justify-end hidden md:flex dark:text-gray-300">
               Nov 2021 - Present
+              </div>
             </div>
           </div>
           <div className="flex justify-center">

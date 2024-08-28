@@ -25,8 +25,8 @@ export const Hero = () => {
     <div className="">
       <div className=" w-full flex items-center justify-center dark:bg-gray-950 dark:text-white pl-8 pr-8">
         <div className="  container md:grid grid-cols-2 items-center ">
-          <div className="flex justify-center items-center md:hidden border-8 w-full border-white ">
-            <img src="./tom-mobile.png" alt="" />
+          <div className="flex justify-center items-center md:hidden border-8 w-full border-white pb-2 mb-6 ">
+            <img src="./tom-mobile.png" alt=""  />
           </div>
           <div className="md:flex flex-col ">
             <h1 className="font-bold  flex text-5xl gap-2 ">
