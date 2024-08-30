@@ -12,39 +12,39 @@ import { ToggleTheme } from "./ToggleTheme";
 export const Menu = ({ handleMenu, isOpenMenu }) => {
   return (
     <div
-      className={`absolute transition-all duration-500 z-50 ease-in-out ${
+      className={`absolute transition-all duration-500 z-50 backdrop-blur ease-in-out ${
         isOpenMenu ? "right-0" : "right-[-100%]"
-      } flex flex-col items-center justify-center top-0 h-full w-screen dark:bg-gray-300 dark:text-gray-950 bg-black text-gray-300`}
+      } flex flex-col items-center justify-center top-0 h-full w-screen `}
     >
-      <div className=" h-full w-full flex bg-gray-800 dark:bg-gray-400">
-        <div className=" ml-[100px] h-full w-full flex flex-col px-8 dark:bg-gray-300 gap-4 pt-4 bg-black ">
+      <div className=" h-full w-full flex  ">
+        <div className=" ml-[100px] h-full w-full flex flex-col px-8 bg-gray-50 gap-4 pt-4 dark:bg-black drop-shadow-sm">
           <div className="flex justify-between">
             <button onClick={handleMenu}>
-            <p className="  font-bold text-2xl">BADAMAA</p>
+            <p className="font-bold text-2xl text-gray-900 dark:text-gray-300">BADAMAA</p>
             </button>
             <button onClick={handleMenu}>
               <CloseIcon />
             </button>
           </div>
-          <div className="flex flex-col  gap-[12px] py-2 pt-4 pb-4 dark:text-gray-900">
-          <button onClick={handleMenu}>
+          <div className="flex flex-col  gap-[12px] py-2 pt-4 pb-4 text-gray-900">
+          <span className="" onClick={handleMenu}>
               <ScrollMenuAbout/>
-            </button>
-            <button onClick={handleMenu}>
+            </span>
+            <span onClick={handleMenu}>
               <ScrollMenuSkills/>
-            </button>
-            <button onClick={handleMenu}>
+            </span>
+            <span onClick={handleMenu}>
               <ScrollMenuWork/>
-            </button>
-            <button onClick={handleMenu}>
+            </span>
+            <span onClick={handleMenu}>
               <ScrollMenuExperience/>
-            </button>
-            <button onClick={handleMenu}>
+            </span>
+            <span onClick={handleMenu}>
              <ScrollMenuContactMe/>
-            </button>
+            </span>
             <div className="flex flex-col gap-4">
               <div className="flex justify-between">
-                <p>Switch Theme </p>
+                <p className="dark:text-gray-300 text-gray-900">Switch Theme </p>
                 <ToggleTheme />
               </div>
 

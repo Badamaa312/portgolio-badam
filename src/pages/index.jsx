@@ -8,8 +8,6 @@ import { Hero } from "@/components/Hero";
 import { Menu } from "@/components/Menu";
 
 import { Skills } from "@/components/Skills";
-import { SkillsMap } from "@/components/SkillsMap";
-
 import { Work } from "@/components/Work";
 import { useState } from "react";
 
@@ -28,12 +26,12 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
-        <Experience />s
+        <Experience />
         <Work />
         <ContactMe />
         <Footer />
       </div>
-      {/* <SkillsMap /> */}
+  
     </main>
   );
 }

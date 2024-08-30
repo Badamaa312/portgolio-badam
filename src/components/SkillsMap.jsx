@@ -55,7 +55,7 @@ export const SkillsMap = () => {
     },
 
     {
-      icon: "./elephant.png",
+      icon: <GitIcon/>,
       iconname: "PostgreSQL",
     },
 

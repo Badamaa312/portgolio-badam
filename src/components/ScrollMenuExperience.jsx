@@ -6,9 +6,9 @@ export const ScrollMenuExperience = () => {
       });
     };
     return (
-      <div className="bg-gray-900 dark:bg-gray-100 dark:text-gray-900 text-center rounded-md  text-gray-50">
-        <button onClick={scrollToExperience}>Experience</button>
-      </div>
+      <span className="dark:bg-gray-900 bg-gray-100 text-gray-900  rounded-md pl-1 pr-1 dark:text-gray-50">
+        <span onClick={scrollToExperience}>Experience</span>
+      </span>
     );
   };
   

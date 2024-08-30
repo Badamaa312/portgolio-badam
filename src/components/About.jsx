@@ -2,7 +2,7 @@ import { ButtonGray } from "./ButtonGray";
 
 export const About = () => {
   return (
-    <main className="dark:bg-gray-900">
+    <main className="dark:bg-gray-900 w-full ">
       <div className="w-full flex items-center justify-center  bg-gray-50 dark:bg-gray-900 ">
         <div className="container  flex flex-col gap-12 pt-8 pb-8 ">
           <div className="container flex items-center justify-center">
@@ -28,7 +28,7 @@ export const About = () => {
                   />
                 </div>
               </div>
-              <div className="dark:text-white">
+              <div className="dark:text-white pl-[16px]">
                 <h2 className=" ">Curious about me? Here you have it:</h2>
                 <p className=" text-gray-600 text-[16px] dark:text-white">
                   I'm a designer turned full stack developer, passionate about

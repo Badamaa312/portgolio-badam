@@ -3,7 +3,7 @@ import { Hamburger } from "./HamburgerBox";
 import { ScrollAbout } from "./ScrollAbout";
 import { ScrollContactMe } from "./ScrollContactMe";
 import { ScrollExperience } from "./ScrollExperience";
-import { ScrollMenuAbout } from "./ScrollMenuAbout";
+
 import { ScrollSkills } from "./ScrollSkills";
 import { ScrollWork } from "./ScrollWork";
 import { ToggleTheme } from "./ToggleTheme";
@@ -26,7 +26,6 @@ export const Header = ({ handleMenu }) => {
           </div>
           <div className="block md:hidden">
             <Hamburger handleMenu={handleMenu} />
-            
           </div>
         </div>
       </div>
