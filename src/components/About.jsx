@@ -2,7 +2,7 @@ import { ButtonGray } from "./ButtonGray";
 
 export const About = () => {
   return (
-    <main className="dark:bg-gray-900 w-full ">
+    <main className="dark:bg-gray-900 ">
       <div className="w-full flex items-center justify-center  bg-gray-50 dark:bg-gray-900 ">
         <div className="container  flex flex-col gap-12 pt-8 pb-8 ">
           <div className="container flex items-center justify-center">
